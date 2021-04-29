@@ -19,8 +19,8 @@ img {margin-bottom: -7px}
 
 <!-- Header -->
 <div class="w3-opacity">
-<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
-<div class="w3-clear"></div>
+<br />
+<br />
 <header class="w3-center w3-margin-bottom">
   <h1><b>xtr3me land</b></h1>
   <p><b>A way to talk to xtr3me and his fans</b></p>
@@ -39,24 +39,12 @@ img {margin-bottom: -7px}
 </footer>
  
 <script>
-// Toggle grid padding
-function myFunction() {
-  var x = document.getElementById("myGrid");
-  if (x.className === "w3-row") {
-    x.className = "w3-row-padding";
-  } else { 
-    x.className = x.className.replace("w3-row-padding", "w3-row");
-  }
+function login() {
+window.location.assign('https://www.xtr3me.tribe.so/login')
 }
 
-// Open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.width = "100%";
-  document.getElementById("mySidebar").style.display = "block";
-}
-
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
+function signup() {
+window.location.assign('https://www.xtr3me.tribe.so/signup')
 }
 </script>
 
